@@ -9,3 +9,5 @@ git reset --hard HEAD~100(上100个版本)，又或者git reset --hard 版本号
 回退后，可以在任何时间使用git reset --hard 版本号，再前滚到最新的版本，使用git reflog，可以查看每次操作的版本号。
 
 git跟踪每次文件的修改，如果不适用git add将修改提交到暂存区，commit将不会把修改提交到版本库
+
+使用git restore <file>指令可以将工作区已经保存的文件的修改退回到暂存区或者仓库的版本
